@@ -1,0 +1,73 @@
+#topic {
+	margin-top: -30px;
+	vertical-align: top;
+	text-align:center;
+	height: 50px;
+	font-size: 35px;
+	background-color: grey;
+	color: white;
+	font-weight: bolder;
+}
+
+#TextArea {
+	top: 100px;
+	left: -160px;
+	resize: none;
+	overflow: auto;
+	border: 3px solid #cccccc;
+	padding: 15px;
+	font-family: Tahoma, sans-serif;
+	position: relative; 
+	border-radius: 10px;
+}
+
+.button {
+	top: 100px;
+	left: -300px;
+	font-size: large;
+	font-style: italic;
+	font-weight: bolder;
+	color: #fffb00;	
+	background-color: #345beb;
+	padding: 3px;
+	height: 40px;
+	width: 90px;
+	border: 2px;
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	border-radius: 5px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+	box-shadow: 3px 5px #33312f;
+} 
+
+.button:after {
+  content: "";
+  color: red;
+  background: #3f4037;
+  display: block;
+  position: absolute;
+  margin-left: -30px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.results {
+	margin-top: 100px;
+    padding: 10px; 
+    font-size: large;
+	font-style: italic;
+	font-weight: bolder;
+}
